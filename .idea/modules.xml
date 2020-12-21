@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/city-recomendor.iml" filepath="$PROJECT_DIR$/.idea/city-recomendor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tools-recommender.iml" filepath="$PROJECT_DIR$/.idea/tools-recommender.iml" />
     </modules>
   </component>
 </project>

@@ -5,7 +5,7 @@ var buttonList = ["code", "docs", "webdev", "devops"];
 
 var toolsBucket = {
   code: {
-    tools: ["VSCode", "Atom", "Sublime", "Notepad++"],
+    tools: ["JetBrains", "Atom", "Sublime", "Notepad++"],
     ratings: ["5/5", "4/5", "3.5/5", "3/5"]
   },
 
@@ -15,12 +15,12 @@ var toolsBucket = {
   },
 
   webdev: {
-    tools: ["Chrome devtools", "codesandbox", "codepen", "Netlify"],
+    tools: ["Chrome devtools", "codesandbox", "Codepen", "Netlify"],
     ratings: ["5/5", "4.5/5", "4/5", "4/5"]
   },
 
   devops: {
-    tools: ["Git", "Docker", "kubernetes"],
+    tools: ["Git", "Docker", "Kubernetes"],
     ratings: ["5/5", "4.5/5", "4/5"]
   }
 };
