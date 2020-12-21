@@ -1,0 +1,117 @@
+:root {
+  --primary-color : #00c4f5;
+  --secondary-color :#c7c2c2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin : 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  border-bottom: 1px solid var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-weight: normal;
+  font-size: medium;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+  /* height: 90vh; */
+}
+
+.leftPanel {
+  float: left;
+  width: 35%;
+  border-right: 1px solid var(--secondary-color);
+  height: 70%;
+  padding: 1rem;
+}
+
+.leftPanel p {
+  /* display: block; */
+  margin: auto;
+  text-align: center;
+
+}
+
+.leftPanelButton {
+  display: block;
+  margin: 5vh auto;
+  width: 90px;
+  height: 45px;
+  border : 1px solid var(--primary-color);
+  border-radius: 6px;
+  background-color: #f5fffd;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.rightPanel {
+  float: right;
+  width: 65%;
+  height: 70%;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.rightPanel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rightPanel li {
+  display: block;
+  width: 100%;
+  margin: 3vh auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fcfbfb;
+  /* border: 1px solid var(--secondary-color); */
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+  font-size: medium;
+}
+
+.rightPanel li span {
+  font-size: small;
+  font-weight: lighter;
+  /* margin-left: 1rem; */
+  margin-left: 0.5rem;
+}
+
+footer {
+  bottom: 0;
+  position : fixed;
+  width: 100%;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+footer a {
+text-decoration: none;
+color: darkblue;
+}
